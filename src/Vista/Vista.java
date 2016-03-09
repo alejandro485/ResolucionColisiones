@@ -49,7 +49,7 @@ public class Vista extends JFrame implements ActionListener{
 
 	public Vista() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1104, 260);
+		setBounds(100, 100, 1104, 630);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -98,7 +98,7 @@ public class Vista extends JFrame implements ActionListener{
 		contentPane.add(btnPrucua);
 		
 		canvas= new CanvasLista();
-		canvas.setBounds(264,10,815, 229);
+		canvas.setBounds(264,10,815, 579);
 		canvas.setVisible(true);
 		contentPane.add(canvas);
 	}

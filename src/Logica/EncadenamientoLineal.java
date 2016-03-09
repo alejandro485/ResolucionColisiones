@@ -25,6 +25,9 @@ public class EncadenamientoLineal extends Colision{
 			return;
 		}
 		while(b[dis][2]!=0){
+			if(b[dis][2]==llave){
+				return;
+			}
 			if(b[dis][1]==-1){
 				break;
 			}

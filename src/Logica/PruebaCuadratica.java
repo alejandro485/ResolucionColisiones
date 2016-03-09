@@ -23,6 +23,9 @@ public class PruebaCuadratica extends Colision {
 		int dis=llave%tamano;
 		int k=dis;
 		while(b[dis][1]!=-1 && i<p){
+			if(b[dis][1]==llave){
+				return;
+			}
 			dis=(k + (i*i))%tamano;
 			i++;
 		}
